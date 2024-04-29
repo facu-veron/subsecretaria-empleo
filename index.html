@@ -1,0 +1,153 @@
+<!-- comentar como se nombran las carpetas y los archivos -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <section>
+      <!-- mostrar primero sin varios parrafos -->
+      <div class="contenedor-header">
+        <div>
+          <img
+            src="./assets/1684542800110.jpg"
+            alt="Foto de perfil de Facundo Veron"
+            style="
+              width: 100px;
+              height: 100px;
+              border-radius: 50px;
+              margin-right: 20px;
+            "
+          />
+        </div>
+        <div>
+          <h1 class="titulo">Hola mi nombre es Facundo Veron!!!</h1>
+        </div>
+      </div>
+      <div class="contenedor">
+        <p class="parrafo">
+          ¡Hola! Me llamo Facundo Veron y soy un apasionado desarrollador de
+          software con enfoque en la creación de soluciones tecnológicas. Con 3
+          años de experiencia en el campo, he tenido el privilegio de trabajar
+          en una amplia gama de proyectos desafiantes que han refinado mi
+          habilidad para transformar conceptos en código funcional y eficiente.
+        </p>
+        <p class="parrafo">
+          Desde el momento en que me di cuenta del impacto que la programación
+          podía tener en la vida de las personas, supe que había encontrado mi
+          pasión. Con una determinación inquebrantable, me he dedicado a crear
+          soluciones tecnológicas que marcan la diferencia, especialmente en el
+          ámbito del desarrollo web.
+        </p>
+        <p class="parrafo">
+          Uno de los logros de los que estoy más orgulloso es la creación de un
+          sistema de alertas meteorológicas y datos climatológicos en tiempo
+          real para mi provincia de origen. Saber que mi trabajo puede
+          proporcionar información crucial y potencialmente salvar vidas en
+          situaciones climáticas adversas me motiva constantemente.
+        </p>
+        <p class="parrafo">
+          He tenido el honor de trabajar en una variedad de proyectos, desde los
+          más pequeños y específicos hasta aquellos con un impacto más amplio.
+          Cada línea de código que escribo representa mi compromiso con la
+          excelencia y la innovación. Mi habilidad para traducir conceptos en
+          aplicaciones funcionales ha sido afinada a lo largo de los años, y
+          estoy siempre ansioso por asumir nuevos desafíos que requieran
+          creatividad y resolución de problemas.
+        </p>
+        <p class="parrafo">
+          Si compartes mi pasión por la tecnología y la creación de soluciones
+          impactantes, ¡estaría encantado de conectarme y explorar cómo podemos
+          colaborar juntos!
+        </p>
+      </div>
+      <!-- explicar que los nombres de las clases no deben ser largos y se deberian entender  -->
+      <!-- arrancar escribiendo contenedor  usuario -->
+      <div>
+        <h1 class="titulo">Contacto</h1>
+      </div>
+      <div class="contenedor-contactos">
+        <div class="linkedin">
+          <a href="https://www.linkedin.com/in/facu-veron-3601b81b9/">
+            <img
+              src="./assets/linkedin.png"
+              alt="logo de linkedin"
+              style="width: 50px; height: 50px; margin-right: 20px"
+            />
+          </a>
+        </div>
+        <div class="facebook">
+          <a href="#">
+            <img
+              src="./assets/facebook.png"
+              alt="logo de linkedin"
+              style="width: 45px; height: 45px; margin-right: 20px"
+            />
+          </a>
+        </div>
+        <div class="instagram">
+          <a href="#">
+            <img
+              src="./assets/instagram.png"
+              alt="logo de linkedin"
+              style="width: 50px; height: 40px; margin-right: 20px"
+            />
+          </a>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
+
+<style>
+  @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+  * {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .titulo {
+    text-align: center;
+    color: blue;
+    font-weight: 700;
+  }
+  .parrafo {
+    text-align: justify;
+  }
+  .contenedor {
+    width: 100vh;
+    height: 70vh;
+  }
+  .contenedor-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 40px auto;
+  }
+
+  .contenedor-contactos {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+</style>
